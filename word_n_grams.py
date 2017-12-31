@@ -75,6 +75,7 @@ def display_top_k_word_n_grams(n, k, top_k_word_n_grams, total_n_grams):
 # <input file name> is the name of a text file in the same directory, <n> is the word gram
 # length and <k> the number of most frequent word n-grams.
 if __name__ == '__main__':
+    
     if len(sys.argv) == 4:
         if os.path.exists('output.csv'):
             os.remove('output.csv')
